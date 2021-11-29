@@ -39,7 +39,6 @@ input {
 
 .wrapper {
     overflow: hidden;
-    background: linear-gradient(to right, #AFE157, #C0F75F, #B8C808);;
 }
 
 .container {
@@ -267,10 +266,13 @@ input {
 }
 
 .col-text p:after {
-    content: ;
+    content: '';
     position: absolute;
-    left: calc(50% - 30px);
-    bottom: -15px;
+    top: 100%;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 1px;
+    background-color: rgba(53, 55, 56, 0.2);
 }
 /*///////////////////////////////////////////////////////////////////////////*/
 
