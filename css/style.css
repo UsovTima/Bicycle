@@ -477,7 +477,7 @@ input {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 400px) {
     .navigation-wrapper.active {
         height: 50vh;
     }
